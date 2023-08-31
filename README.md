@@ -11,7 +11,7 @@
   - source env/bin/activate  
   - pip install -r requirements.txt
   - Скачать содержимое папки get_video по ссылке  
-  https://drive.google.com/drive/folders/1PLer0qSONIvup2dIYuMIOiLGloHgFh8S?usp=sharing  
+  https://drive.google.com/drive/folders/1C4cSx95pDNDICYw3qLyEcqMKRcDG8u3o?usp=sharing  
 и переместьть его в папку проекта: detection/server/media/get_video  
   
 Запуск:
