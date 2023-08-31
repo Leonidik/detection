@@ -1,0 +1,30 @@
+<!-- templates/get_video/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCamera</title>
+</head>
+
+<body>   
+     {% if path_to_X_map == "@" %}
+         <div>
+            <img src="{% url 'live_camera' path_to_video=path_to_video %}" width="960" height="540"> 
+            <br>  <input type="button" onclick="history.back();" value="<< Назад"/> <br>         
+         </div>
+     {% elif path_to_video == "@" %}
+         <div>
+            <br> <input type="button" onclick="history.back();" value="<< Назад"/> <br>
+            <br> <img src='http://{{host}}/{{path_to_X_map}}' width="960" height="{{X_map_h}}" alt="">
+         </div>
+     {% endif %}
+   
+</body>
+</html>
+
+
+
+

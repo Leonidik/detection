@@ -1,0 +1,57 @@
+<!-- templates/get_video/select_video.html -->
+
+<b>Примеры обнаружения объектов</b><br>
+(в данном случае - людей)<br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCamera</title>
+    
+    <style>
+      img { border: 3px solid #00a8e1; }
+      table {
+         width: auto;
+         margin:auto;}
+    </style>    
+</head>
+
+<body>
+   <table align="left">
+   <tr> <!-- Добавляем строку -->
+         <td align="center"><img src='http://{{host}}/media/get_video/snowboard.jpg'  width="356" height="200" alt=""> </td>
+         <td align="center"><img src='http://{{host}}/media/get_video/road.jpg'       width="356" height="200" alt=""> </td>
+        </tr> <!-- Закрываем HTML-тег строки -->         
+   <tr> <!-- Добавляем строку -->
+        <td align="center"><a href='http://{{host}}/index/?path=1'>  Snowboard video </a> </td>
+        <td align="center"><a href='http://{{host}}/index/?path=2'>  Road video    </a> </td>
+        </tr> <!-- Закрываем HTML-тег строки -->           
+   <tr> <!-- Добавляем строку -->
+        <td align="center"><a href='http://{{host}}/index/?path=11'> Snowboard X-map </a> </td>
+        <td align="center"><a href='http://{{host}}/index/?path=22'> Road X-map      </a> </td>
+        </tr> <!-- Закрываем HTML-тег строки -->   
+   <tr> <!-- Добавляем строку -->
+        <td align="center"><img src='http://{{host}}/media/get_video/persons.jpg'    width="356" height="200" alt=""> </td>
+        <td align="center"><img src='http://{{host}}/media/get_video/diving.jpg'    width="356" height="200" alt=""> </td>
+        </tr> <!-- Закрываем HTML-тег строки --> 
+   <tr> <!-- Добавляем строку -->
+        <td align="center"><a href='http://{{host}}/index/?path=3'>  Persons video </a> </td>
+        <td align="center"><a href='http://{{host}}/index/?path=4'>  Diving video</a> </td>
+        </tr> <!-- Закрываем HTML-тег строки -->               
+   <tr> <!-- Добавляем строку -->
+        <td align="center"><a href='http://{{host}}/index/?path=33'> Persons X-map </a> </td>
+        <td align="center"><a href='http://{{host}}/index/?path=44'> Duving X-map</a> </td>
+        </tr> <!-- Закрываем HTML-тег строки -->
+      
+   </table> 
+
+</body>
+
+</html>
+
+
+
+
